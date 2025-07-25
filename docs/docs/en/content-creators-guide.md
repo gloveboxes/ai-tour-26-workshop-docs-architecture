@@ -226,11 +226,26 @@ For more details, see the [MkDocs GitHub Pages documentation](https://www.mkdocs
 
 1. From VS VCode and GitHub Copilot, you can use the following prompt to translate your documentation into Spanish:
 
-  ```text
-  Translate all the files in the docs/docs/en folder to Spanish. Place the translated files in the docs/docs/es folder. Add a local for Spanish in the mkdocs i18n section and add translations for all the nav_translations and admonition_translations. Ignore linting errors and continue translating if errors.
-  ```
+    ```text
+    Translate the workshop documentation from English to Brazilian Portuguese, maintaining the original file structure and formatting. 
+    Follow these steps:
+      - Create a new folder using the destination language ISO 639-1 code name to store the translated files.
+      - The source files are located in the `docs/docs/en` directory.
+      - Never wrap the translated files in a code block.
+      - For each file:
+        - Maintain the original file name, structure, and formatting (including Markdown structure, metadata, and code blocks).
+        - Save the translated files into a new folder.
+
+    Additionally:
+    1. Update the mkdocs.yml configuration file by:
+    • Adding a new locale entry for Brazilian Portuguese (pt-BR) under the i18n plugin section.
+    • Providing appropriate translations for all nav_translations and admonition_translations keys.
+    2. Ignore any linting or formatting warnings and continue processing all files without interruption.
+    ```
 
 2. Add Context to Copilot
 
-- mkdocs.yml
-- docs folder
+   - mkdocs.yml
+   - docs folder
+
+3. The agent will translate the files and update the `mkdocs.yml` file with the new language settings in batches. You'll need to ask the agent to continue until all files are translated.

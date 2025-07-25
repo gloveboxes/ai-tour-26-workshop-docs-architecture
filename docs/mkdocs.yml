@@ -81,6 +81,25 @@ plugins:
             'Summary': '总结'
             'Resources': '资源'
             'About': '关于'
+        - locale: pt-BR
+          name: Português Brasileiro
+          site_name: Oficina AI Tour 26
+          admonition_translations:
+            tip: Dica
+            warning: Aviso
+          nav_translations:
+            'Workshop Introduction': 'Introdução ao Workshop'
+            'Content Creators Guide': 'Guia para Criadores de Conteúdo'
+            'Workshop Overview': 'Visão Geral do Workshop'
+            'Solution Architecture': 'Arquitetura da Solução'
+            'Security Considerations': 'Considerações de Segurança'
+            'Getting Started': 'Começando'
+            'Lab 1 Opening the Workshop': 'Lab 1 Iniciando o Workshop'
+            'Lab 2 ....': 'Lab 2 ....'
+            'Lab 6 Finishing Up': 'Lab 6 Conclusão'
+            'Summary': 'Resumo'
+            'Resources': 'Recursos'
+            'About': 'Sobre'
 
 theme:
   name: material
