@@ -20,8 +20,8 @@ Envisagez de documenter les modèles architecturaux et les principes de concepti
 - Microservices vs architecture monolithique
 - Modèles d'architecture pilotée par les événements
 - Stratégies de persistance des données
-- Conception et approches d'intégration des API
-- Gestion des erreurs et modèles de résilience
+- Conception et intégration des API
+- Modèles de gestion des erreurs et de résilience
 
 ## Évolutivité et performance
 
@@ -34,3 +34,7 @@ Incluez des considérations pour :
 - Surveillance et observabilité
 
 Cette documentation architecturale sert de plan pour comprendre la structure de la solution et guide les décisions de développement et opérationnelles.
+
+---
+
+Traduit avec GitHub Copilot.

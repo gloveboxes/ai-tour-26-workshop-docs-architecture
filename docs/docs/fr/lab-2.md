@@ -30,7 +30,7 @@ Dans ce laboratoire, vous allez :
 
     ### Étape 1 : [Titre de l'étape]
     
-    [Instructions pour l'implémentation Python]
+    [Instructions pour l'implémentation en Python]
     
     ```python
     # Exemple de code ici
@@ -47,3 +47,7 @@ Dans ce laboratoire, vous allez :
 === "C#"
 
     ### Étape 1 : [Titre de l'étape]
+    
+---
+
+Traduit avec GitHub Copilot.

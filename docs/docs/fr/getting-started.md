@@ -1,11 +1,15 @@
-## Pour commencer
+## Pour Commencer
 
 Sélectionnez votre expérience d'atelier :
 
-=== "@AI Tour Workshop"
+=== "@Atelier AI Tour"
 
     {% include-markdown "includes/introduction-event.md" %}
 
-=== "Apprenants autonomes"
+=== "Apprenants Autonomes"
 
     {% include-markdown "includes/introduction-self-guided.md" %}
+
+---
+
+Traduit avec GitHub Copilot.

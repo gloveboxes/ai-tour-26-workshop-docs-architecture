@@ -6,16 +6,16 @@ Cette section doit fournir des informations générales sur l'atelier, y compris
 
 ### Pile technologique
 - **Modèles d'IA** : [Liste des modèles spécifiques utilisés, par exemple, GPT-4, Claude, etc.]
-- **Base de données** : Serveur flexible PostgreSQL Azure
+- **Base de données** : Azure PostgreSQL Flexible Server
 - **Stockage** : Comptes de stockage Azure
-- **Plateforme IA** : Service d'agent Azure AI Foundry
-- **Développement** : Python, Protocole de contexte de modèle (MCP)
+- **Plateforme IA** : Service Azure AI Foundry Agent
+- **Développement** : Python, Protocole de Contexte Modèle (MCP)
 - **Infrastructure** : [Services supplémentaires utilisés]
 
 ### Avantages commerciaux
 - **Amélioration de la prise de décision** : Exploitez les analyses basées sur l'IA pour des informations basées sur les données
 - **Efficacité opérationnelle** : Automatisez les tâches routinières et rationalisez les flux de travail
-- **Expérience client** : Créez des applications intelligentes et réactives
+- **Expérience client** : Construisez des applications intelligentes et réactives
 - **Évolutivité** : Architecture native du cloud qui évolue avec votre entreprise
 
 ### Auteurs de l'atelier
@@ -25,14 +25,18 @@ Cette section doit fournir des informations générales sur l'atelier, y compris
 
 ### Sources de données
 - **Jeu de données principal** : Jeu de données fictif Zava DIY retail
-- **Base de données** : Serveur flexible PostgreSQL Azure avec sécurité au niveau des lignes
+- **Base de données** : Azure PostgreSQL Flexible Server avec sécurité au niveau des lignes
 - **Stockage** : Comptes de stockage Azure pour les médias et les fichiers volumineux
 
 ### Services Azure utilisés
-- Service d'agent Azure AI Foundry
-- Serveur flexible PostgreSQL Azure
+- Service Azure AI Foundry Agent
+- Azure PostgreSQL Flexible Server
 - Comptes de stockage Azure
 - [Services Azure supplémentaires si applicable]
 
 ### Résultats d'apprentissage
 Brève description de ce que les participants réaliseront et des compétences pratiques qu'ils développeront grâce à cet atelier.
+
+---
+
+Traduit avec GitHub Copilot.
