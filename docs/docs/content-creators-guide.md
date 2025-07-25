@@ -1,4 +1,3 @@
-# Content Creators Guide
 
 ## Goal
 
@@ -96,3 +95,51 @@ You can split out reusable content using the `includes` folder. For example to i
 This will include the content from `docs/docs/includes/introduction-self-guided.md` into your page.
 
 Explore the `docs/docs/includes` folder for more examples.
+
+
+## 7. Deploying to GitHub Pages
+
+You can easily publish your documentation using GitHub Pages. Here are the steps:
+
+### 1. Add a GitHub Actions Workflow
+Create a file at `.github/workflows/gh-pages.yml` in your repository with the following content:
+
+```yaml
+name: Deploy MkDocs to GitHub Pages
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    env:
+      CONFIG_FILE: docs/mkdocs.yml
+      REQUIREMENTS: docs/requirements.txt
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v3
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material mkdocs-glightbox mkdocs-include-markdown-plugin
+      - run: mkdocs gh-deploy --force --config-file docs/mkdocs.yml
+```
+
+### 2. Enable GitHub Pages
+Go to your repository settings, find the **Pages** section, and set the source to `gh-pages` branch. After your workflow runs, your site will be published at the provided URL.
+
+For more details, see the [MkDocs GitHub Pages documentation](https://www.mkdocs.org/user-guide/deploying-your-docs/#github-pages).
+# Content Creators Guide
