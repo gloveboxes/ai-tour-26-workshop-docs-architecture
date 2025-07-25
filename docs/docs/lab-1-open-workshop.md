@@ -164,23 +164,29 @@ In this lab, you'll set up your first MCP-enabled application and connect it to 
 ## Run and Test Your Application
 
 ### For Python Users
+
 1. Start the MCP server (if not already running):
+
    ```bash
    python mcp_server.py
    ```
 
 2. In a new terminal, run your agent:
+
    ```bash
    python my_first_agent.py
    ```
 
 ### For C# Users
+
 1. Start the MCP server (if not already running):
+
    ```bash
    dotnet run --project McpServer
    ```
 
 2. In a new terminal, run your agent:
+
    ```bash
    dotnet run --project MyFirstAgent
    ```
@@ -188,6 +194,7 @@ In this lab, you'll set up your first MCP-enabled application and connect it to 
 ## Verify Your Setup
 
 You should see output similar to:
+
 ```
 Total products in database: 150
 Top 5 Products:
@@ -204,6 +211,7 @@ Top 5 Products:
 ## Next Steps
 
 In the next lab, you'll learn how to:
+
 - Add AI capabilities to your agent
 - Process natural language queries
 - Generate dynamic responses based on data analysis
@@ -215,5 +223,5 @@ In the next lab, you'll learn how to:
     - **Connection refused**: Make sure the MCP server is running
     - **Database not found**: Verify your database connection string
     - **Permission denied**: Check your database credentials
-    
+
     If you encounter issues, refer to the troubleshooting section or ask for help from the workshop facilitators.

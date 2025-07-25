@@ -1,6 +1,7 @@
 site_name: Workshop Title
 
 nav:
+  - Content Creators Guide: content-creators-guide.md
   - Workshop Introduction: index.md
   - Workshop Overview: overview.md
   - Solution Architecture: architecture.md
