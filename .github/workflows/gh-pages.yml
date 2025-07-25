@@ -28,4 +28,4 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material mkdocs-glightbox mkdocs-include-markdown-plugin mkdocs-static-i18n
-      - run: mkdocs gh-deploy --force --config-file docs/mkdocs.yml
+      - run: mkdocs gh-deploy --force --config-file ${{ env.CONFIG_FILE }}
