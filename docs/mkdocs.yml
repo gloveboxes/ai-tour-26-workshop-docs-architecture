@@ -1,4 +1,5 @@
-site_name: Workshop Title
+site_name: AI Tour Workshop 26
+site_description: Documentation for the AI Tour Workshop 26
 
 nav:
   - Content Creators Guide: content-creators-guide.md
@@ -7,56 +8,61 @@ nav:
   - Solution Architecture: architecture.md
   - Security Considerations: security.md
   - Getting Started: getting-started.md
-  # - Workshop Setup:
-  #   - BUILD Attendees: introduction-event.md
-  #   - Self-Guided Learners: introduction-self-guided.md
-
-  # - Lab 1 Grounding LLMs with MCP: lab-1-mcp_intro.md
   - Lab 1 Opening the Workshop: lab-1-open-workshop.md
   - Lab 2 ....: lab-2.md
   - Lab 6 Finishing Up: lab-6-finishing-up.md
   - Summary: summary.md
   - Resources: resources.md
   - About: about.md
-  # - Deployment: deployment.md
-  # - Troubleshooting: troubleshooting.md
-
 
 plugins:
   - glightbox
   - include-markdown
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          default: true
+        - locale: fr
+          name: Français
+          site_name: Atelier AI Tour 26
+          admonition_translations:
+            tip: Conseil
+            warning: Avertissement
+          nav_translations:
+            'Workshop Introduction': 'Introduction à l''Atelier'
+
 
 theme:
   name: material
   logo: media/favicon.png
   favicon: media/favicon.png
   features:
-    - navigation.instant
+    # - navigation.instant
     - navigation.footer
     - content.code.copy
-    - navigation.tabs.sticky 
+    - navigation.tabs.sticky
     - content.tabs.link
+    - i18n
 
-  # Change Font: https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/?h=fonts
-  # Google Fonts Supported By Default: https://fonts.google.com/
   font:
-    code: Roboto Mono #Monospaced
-    text: Roboto #Regular
-  # logo: docs/media/azure-ai-studio.svg
+    code: Roboto Mono
+    text: Roboto
+
   palette:
-    - scheme: default  # Light Mode
+    - scheme: default
       primary: black
       accent: pink
       toggle:
         icon: material/brightness-2
         name: Switch to dark mode
-    - scheme: slate # Dark Mode
+    - scheme: slate
       primary: amber
       accent: cyan
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
-
 
 markdown_extensions:
   - toc:
@@ -66,17 +72,14 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
-        alternate_style: true
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - attr_list
   - md_in_html
-  # - pymdownx.emoji:
-      # emoji_index: !!python/name:material.extensions.emoji.twemoji
-      # emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
 
 extra_css:
   - css/custom.css
 
-
+# extra_javascript:
+  # - js/custom.js

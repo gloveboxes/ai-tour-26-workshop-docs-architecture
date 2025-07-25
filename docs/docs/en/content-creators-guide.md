@@ -15,20 +15,20 @@ This repository provides a recommended structure for your documentation. For lab
 
 Following this format helps ensure consistency and clarity across all workshop materials.
 
-## 1. Understand Your Audience
+## Understand Your Audience
 
 - **Developers or Data Scientists:** Focus on practical examples, code snippets, and hands-on labs.
 - **Technical Decision Makers:** Highlight architecture, business value, and strategic insights.
 
-!!! info
-    For content aimed at **Data Scientists**, Jupyter Notebooks are a great way to present interactive code, data analysis, and visualizations.
+    !!! tip
+        For content aimed at **Data Scientists**, Jupyter Notebooks are a great way to present interactive code, data analysis, and visualizations.
 
-## 2. KISS Principle
+## KISS Principle
 
 - **Keep It Simple:** Avoid jargon and complex explanations. Assume minimal prior knowledge.
 - **Be Clear:** Use concise language and step-by-step instructions.
 
-## 3. Get Started with This Repo
+## Get Started with This Repo
 
 - **Clone this repository:**
 
@@ -39,7 +39,7 @@ Following this format helps ensure consistency and clarity across all workshop m
 - **Copy docs:**
   Copy the contents of the `docs` folder from this repo to the `docs` folder in your AI Tour 26 repo.
 
-## 4. Getting Started with MkDocs
+## Getting Started with MkDocs
 
 - **Install requirements:**
   The `requirements.txt` file for MkDocs is in the `docs` folder. Install dependencies with:
@@ -56,12 +56,70 @@ Following this format helps ensure consistency and clarity across all workshop m
 
 Once running, you can live preview your documentation by clicking the link shown in your terminal (usually [http://127.0.0.1:8000](http://127.0.0.1:8000) or similar).
 
-## 5. Tricks for Sticky Tabs
+## Don't use Heading level 1
 
+MkDocs automatically generates the main title from the `mkdocs.yml` file, so avoid using Heading level 1 (`#`) in your Markdown files. Use Heading level 2 (`##`) for main sections and Heading level 3 (`###`) for subsections.
+
+## Using MkDocs Admonitions (Tips, Warnings, Info)
+
+You can use MkDocs admonition to highlight important information, tips, warnings, and more in your documentation. Here are some commonly used admonition:
+
+**Raw Markdown:**
+
+```markdown
+!!! tip
+    This is a tip annotation.
+
+!!! warning
+    This is a warning annotation.
+
+!!! info
+    This is an info annotation.
+
+!!! note
+    This is a note annotation.
+
+!!! danger
+    This is a danger annotation.
+
+!!! success
+    This is a success annotation.
+
+!!! question
+    This is a question annotation.
+```
+
+**How it Renders:**
+
+!!! tip
+    This is a tip annotation.
+
+!!! warning
+    This is a warning annotation.
+
+!!! info
+    This is an info annotation.
+
+!!! note
+    This is a note annotation.
+
+!!! danger
+    This is a danger annotation.
+
+!!! success
+    This is a success annotation.
+
+!!! question
+    This is a question annotation.
+
+---
+
+## Tricks for Sticky Tabs
 
 Use sticky tabs to show code examples in multiple languages. Example:
 
 **Raw Markdown:**
+
 ```markdown
 === "Python"
     ```python
@@ -86,7 +144,7 @@ Use sticky tabs to show code examples in multiple languages. Example:
     Console.WriteLine("Hello, AI Tour 26!");
     ```
 
-## 6. Splitting Content with 'includes'
+## Splitting Content with 'includes'
 
 You can split out reusable content using the `includes` folder. For example to include a common introduction for self-guided learners:
 
@@ -96,12 +154,32 @@ This will include the content from `docs/docs/includes/introduction-self-guided.
 
 Explore the `docs/docs/includes` folder for more examples.
 
+## Using LLMs to Help with Content Creation
 
-## 7. Deploying to GitHub Pages
+Large Language Models (LLMs) like GitHub Copilot or ChatGPT can be valuable tools for improving your documentation. Here are some example prompts you can use to enhance your content:
+
+**Useful Prompts for Document Content Creators:**
+
+- `Rewrite to be concise and clear.`
+- `Summarize this section for a beginner audience.`
+- `Suggest a more engaging introduction for this lab.`
+- `Check this text for grammar and spelling errors.`
+- `Convert this list into a step-by-step guide.`
+- `Add a practical example to this explanation.`
+- `Rephrase this to be more formal/informal.`
+- `Highlight the key takeaways from this section.`
+- `Suggest improvements for accessibility and inclusivity.`
+
+Experiment with these prompts to make your documentation more effective and user-friendly.
+
+---
+
+## Deploying to GitHub Pages
 
 You can easily publish your documentation using GitHub Pages. Here are the steps:
 
 ### 1. Add a GitHub Actions Workflow
+
 Create a file at `.github/workflows/gh-pages.yml` in your repository with the following content:
 
 ```yaml
@@ -139,7 +217,7 @@ jobs:
 ```
 
 ### 2. Enable GitHub Pages
+
 Go to your repository settings, find the **Pages** section, and set the source to `gh-pages` branch. After your workflow runs, your site will be published at the provided URL.
 
 For more details, see the [MkDocs GitHub Pages documentation](https://www.mkdocs.org/user-guide/deploying-your-docs/#github-pages).
-# Content Creators Guide
