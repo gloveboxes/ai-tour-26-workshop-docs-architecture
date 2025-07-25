@@ -230,7 +230,7 @@ For more details, see the [MkDocs GitHub Pages documentation](https://www.mkdocs
     Translate the workshop documentation in folder `docs/docs/en` from English to Brazilian Portuguese, maintaining the original file structure and formatting. 
     Follow these steps:
     1. Create a new folder using the destination language ISO 639-1 code name to store the translated files.
-    2. Translate in batches of 4 files at a time, and ensure that the translations are accurate and contextually appropriate for a technical audience.
+    2. Translate in batches of 8 files at a time, and ensure that the translations are accurate and contextually appropriate for a technical audience.
     3. For each file:
       - **NEVER** wrap the translated files in a markdown code block.
       - Maintain the original file name, structure, and formatting (including Markdown structure, metadata, and code blocks).

@@ -100,6 +100,25 @@ plugins:
             'Summary': 'Resumo'
             'Resources': 'Recursos'
             'About': 'Sobre'
+        - locale: ko
+          name: 한국어
+          site_name: AI 투어 워크숍 26
+          admonition_translations:
+            tip: 팁
+            warning: 경고
+          nav_translations:
+            'Workshop Introduction': '워크숍 소개'
+            'Content Creators Guide': '콘텐츠 제작자 가이드'
+            'Workshop Overview': '워크숍 개요'
+            'Solution Architecture': '솔루션 아키텍처'
+            'Security Considerations': '보안 고려 사항'
+            'Getting Started': '시작하기'
+            'Lab 1 Opening the Workshop': '실험실 1 워크숍 시작하기'
+            'Lab 2 ....': '실험실 2 ....'
+            'Lab 6 Finishing Up': '실험실 6 마무리'
+            'Summary': '요약'
+            'Resources': '리소스'
+            'About': '소개'
 
 theme:
   name: material
