@@ -32,7 +32,55 @@ plugins:
             warning: Avertissement
           nav_translations:
             'Workshop Introduction': 'Introduction à l''Atelier'
-
+            'Content Creators Guide': 'Guide des Créateurs de Contenu'
+            'Workshop Overview': 'Vue d''ensemble de l''Atelier'
+            'Solution Architecture': 'Architecture de la Solution'
+            'Security Considerations': 'Considérations de Sécurité'
+            'Getting Started': 'Pour Commencer'
+            'Lab 1 Opening the Workshop': 'Lab 1 Ouverture de l''Atelier'
+            'Lab 2 ....': 'Lab 2 ....'
+            'Lab 6 Finishing Up': 'Lab 6 Conclusion'
+            'Summary': 'Résumé'
+            'Resources': 'Ressources'
+            'About': 'À propos'
+        - locale: es
+          name: Español
+          site_name: Taller AI Tour 26
+          admonition_translations:
+            tip: Consejo
+            warning: Advertencia
+          nav_translations:
+            'Workshop Introduction': 'Introducción al Taller'
+            'Content Creators Guide': 'Guía para Creadores de Contenido'
+            'Workshop Overview': 'Resumen del Taller'
+            'Solution Architecture': 'Arquitectura de la Solución'
+            'Security Considerations': 'Consideraciones de Seguridad'
+            'Getting Started': 'Comenzando'
+            'Lab 1 Opening the Workshop': 'Lab 1 Apertura del Taller'
+            'Lab 2 ....': 'Lab 2 ....'
+            'Lab 6 Finishing Up': 'Lab 6 Conclusión'
+            'Summary': 'Resumen'
+            'Resources': 'Recursos'
+            'About': 'Acerca de'
+        - locale: zh
+          name: 中文
+          site_name: AI Tour 研讨会 26
+          admonition_translations:
+            tip: 提示
+            warning: 警告
+          nav_translations:
+            'Workshop Introduction': '研讨会介绍'
+            'Content Creators Guide': '内容创作者指南'
+            'Workshop Overview': '研讨会概览'
+            'Solution Architecture': '解决方案架构'
+            'Security Considerations': '安全注意事项'
+            'Getting Started': '入门'
+            'Lab 1 Opening the Workshop': '实验室 1 研讨会入门'
+            'Lab 2 ....': '实验室 2 ....'
+            'Lab 6 Finishing Up': '实验室 6 完成总结'
+            'Summary': '总结'
+            'Resources': '资源'
+            'About': '关于'
 
 theme:
   name: material

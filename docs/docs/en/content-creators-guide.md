@@ -221,3 +221,16 @@ jobs:
 Go to your repository settings, find the **Pages** section, and set the source to `gh-pages` branch. After your workflow runs, your site will be published at the provided URL.
 
 For more details, see the [MkDocs GitHub Pages documentation](https://www.mkdocs.org/user-guide/deploying-your-docs/#github-pages).
+
+## Language Translations
+
+1. From VS VCode and GitHub Copilot, you can use the following prompt to translate your documentation into Spanish:
+
+  ```text
+  Translate all the files in the docs/docs/en folder to Spanish. Place the translated files in the docs/docs/es folder. Add a local for Spanish in the mkdocs i18n section and add translations for all the nav_translations and admonition_translations. Ignore linting errors and continue translating if errors.
+  ```
+
+2. Add Context to Copilot
+
+- mkdocs.yml
+- docs folder
