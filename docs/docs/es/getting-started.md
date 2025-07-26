@@ -4,8 +4,8 @@ Seleccione su experiencia de taller:
 
 === "@AI Tour Workshop"
 
-    {% include-markdown "includes/introduction-event.md" %}
+    {% include-markdown "includes/en/introduction-event.md" %}
 
 === "Aprendices autodidactas"
 
-    {% include-markdown "includes/introduction-self-guided.md" %}
+    {% include-markdown "includes/en/introduction-self-guided.md" %}

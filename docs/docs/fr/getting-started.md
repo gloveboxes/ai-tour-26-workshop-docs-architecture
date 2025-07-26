@@ -4,11 +4,11 @@ Sélectionnez votre expérience d'atelier :
 
 === "@Atelier AI Tour"
 
-    {% include-markdown "includes/introduction-event.md" %}
+    {% include-markdown "includes/fr/introduction-event.md" %}
 
 === "Apprenants Autonomes"
 
-    {% include-markdown "includes/introduction-self-guided.md" %}
+    {% include-markdown "includes/fr/introduction-self-guided.md" %}
 
 ---
 

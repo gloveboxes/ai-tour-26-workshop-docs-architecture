@@ -1,6 +1,6 @@
 === "Apprenants Autonomes"
 
-    {% include-markdown "includes/lab-6-finishing-up-self-guided.md" %}
+    {% include-markdown "includes/fr/lab-6-finishing-up-self-guided.md" %}
 
 ---
 

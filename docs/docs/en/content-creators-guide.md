@@ -148,9 +148,9 @@ Use sticky tabs to show code examples in multiple languages. Example:
 
 You can split out reusable content using the `includes` folder. For example to include a common introduction for self-guided learners:
 
-&#123;% include-markdown "includes/introduction-self-guided.md" %&#125;
+&#123;% include-markdown "includes/en/introduction-self-guided.md" %&#125;
 
-This will include the content from `docs/docs/includes/introduction-self-guided.md` into your page.
+This will include the content from `docs/docs/includes/en/introduction-self-guided.md` into your page.
 
 Explore the `docs/docs/includes` folder for more examples.
 

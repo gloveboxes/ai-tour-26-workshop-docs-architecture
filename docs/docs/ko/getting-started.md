@@ -4,11 +4,11 @@
 
 === "@AI Tour 워크숍"
 
-    {% include-markdown "includes/introduction-event.md" %}
+    {% include-markdown "includes/en/introduction-event.md" %}
 
 === "자기 주도 학습자"
 
-    {% include-markdown "includes/introduction-self-guided.md" %}
+    {% include-markdown "includes/en/introduction-self-guided.md" %}
 
 ---
 

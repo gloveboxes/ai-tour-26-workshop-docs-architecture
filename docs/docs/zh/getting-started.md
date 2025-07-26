@@ -4,8 +4,8 @@
 
 === "@AI Tour 研讨会"
 
-    {% include-markdown "includes/introduction-event.md" %}
+    {% include-markdown "includes/en/introduction-event.md" %}
 
 === "自学者"
 
-    {% include-markdown "includes/introduction-self-guided.md" %}
+    {% include-markdown "includes/en/introduction-self-guided.md" %}

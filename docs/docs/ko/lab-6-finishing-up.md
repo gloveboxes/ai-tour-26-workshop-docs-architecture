@@ -1,10 +1,10 @@
-<!-- === "@워크숍 빌드"
+=== "@워크숍 빌드"
 
-    {% include-markdown "includes/lab-6-finishing-up-event.md" %} -->
+    {% include-markdown "includes/en/lab-6-finishing-up-event.md" %}
 
 === "자기 주도 학습자"
 
-    {% include-markdown "includes/lab-6-finishing-up-self-guided.md" %}
+    {% include-markdown "includes/en/lab-6-finishing-up-self-guided.md" %}
 
 ---
 
