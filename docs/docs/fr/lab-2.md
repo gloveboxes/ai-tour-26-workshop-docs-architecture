@@ -1,4 +1,4 @@
-## Lab 2 : [Titre du laboratoire ici]
+## Laboratoire 2 : [Titre du laboratoire ici]
 
 Brève description de ce que couvre ce laboratoire et de son objectif dans le flux global de l'atelier.
 
@@ -13,7 +13,7 @@ Dans ce laboratoire, vous allez :
 
 ## Prérequis
 
-- Achèvement du Lab 1
+- Avoir terminé le Laboratoire 1
 - [Toute exigence ou configuration spécifique nécessaire]
 
 ## Introduction
@@ -50,4 +50,4 @@ Dans ce laboratoire, vous allez :
     
 ---
 
-Traduit avec GitHub Copilot.
+Traduit avec GitHub Copilot et GPT-4o.

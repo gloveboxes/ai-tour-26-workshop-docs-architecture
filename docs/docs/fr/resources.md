@@ -13,7 +13,7 @@ Cette section doit fournir des ressources utiles pour les participants à l'atel
 ### Matériaux d'apprentissage
 - Cours en ligne et tutoriels
 - Démonstrations vidéo
-- Dépôts de code d'exemple
+- Référentiels de code d'exemple
 - Forums communautaires et discussions
 
 ### Outils & Utilitaires
@@ -25,10 +25,10 @@ Cette section doit fournir des ressources utiles pour les participants à l'atel
 ### Communauté & Support
 - Canaux communautaires officiels
 - Tags Stack Overflow
-- Dépôts GitHub
+- Référentiels GitHub
 - Blogs et articles de développeurs
 
-## Format d'entrée d'exemple
+## Format d'entrée exemple
 
 **Nom de l'outil/ressource**
 - Brève description de ce qu'il fournit
@@ -37,4 +37,4 @@ Cette section doit fournir des ressources utiles pour les participants à l'atel
 
 ---
 
-Traduit avec GitHub Copilot.
+Traduit avec GitHub Copilot et GPT-4o.

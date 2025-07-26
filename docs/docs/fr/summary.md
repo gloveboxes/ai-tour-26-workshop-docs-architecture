@@ -34,4 +34,4 @@ Ce résumé renforce l'apprentissage et fournit aux participants un sentiment cl
 
 ---
 
-Traduit avec GitHub Copilot.
+Traduit avec GitHub Copilot et GPT-4o.

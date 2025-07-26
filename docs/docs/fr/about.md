@@ -4,16 +4,16 @@ Cette section doit fournir des informations générales sur l'atelier, y compris
 
 ## Exemple de section À propos
 
-### Pile technologique
+### Stack Technologique
 - **Modèles d'IA** : [Liste des modèles spécifiques utilisés, par exemple, GPT-4, Claude, etc.]
 - **Base de données** : Azure PostgreSQL Flexible Server
 - **Stockage** : Comptes de stockage Azure
 - **Plateforme IA** : Service Azure AI Foundry Agent
-- **Développement** : Python, Protocole de Contexte Modèle (MCP)
+- **Développement** : Python, Protocole de Contexte de Modèle (MCP)
 - **Infrastructure** : [Services supplémentaires utilisés]
 
 ### Avantages commerciaux
-- **Amélioration de la prise de décision** : Exploitez les analyses basées sur l'IA pour des informations basées sur les données
+- **Amélioration de la prise de décision** : Exploitez des analyses basées sur l'IA pour des insights basés sur les données
 - **Efficacité opérationnelle** : Automatisez les tâches routinières et rationalisez les flux de travail
 - **Expérience client** : Construisez des applications intelligentes et réactives
 - **Évolutivité** : Architecture native du cloud qui évolue avec votre entreprise
@@ -39,4 +39,4 @@ Brève description de ce que les participants réaliseront et des compétences p
 
 ---
 
-Traduit avec GitHub Copilot.
+Traduit avec GitHub Copilot et GPT-4o.

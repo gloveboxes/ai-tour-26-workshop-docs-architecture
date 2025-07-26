@@ -9,7 +9,7 @@ Lors de la documentation de votre architecture de solution, envisagez d'inclure 
 - **Composants du système** : Identifiez les principaux blocs de construction de votre solution
 - **Flux de données** : Montrez comment l'information circule dans le système
 - **Points d'intégration** : Mettez en évidence comment différents services et composants se connectent
-- **Pile technologique** : Documentez les frameworks, bibliothèques et outils utilisés
+- **Stack Technologique** : Documentez les frameworks, bibliothèques et outils utilisés
 - **Modèle de déploiement** : Décrivez comment la solution est déployée et mise à l'échelle
 - **Considérations de sécurité** : Décrivez l'authentification, l'autorisation et les mesures de protection des données
 
@@ -17,11 +17,11 @@ Lors de la documentation de votre architecture de solution, envisagez d'inclure 
 
 Envisagez de documenter les modèles architecturaux et les principes de conception qui guident votre solution :
 
-- Microservices vs architecture monolithique
+- Architecture microservices vs monolithique
 - Modèles d'architecture pilotée par les événements
 - Stratégies de persistance des données
 - Conception et intégration des API
-- Modèles de gestion des erreurs et de résilience
+- Gestion des erreurs et modèles de résilience
 
 ## Évolutivité et performance
 
@@ -37,4 +37,4 @@ Cette documentation architecturale sert de plan pour comprendre la structure de 
 
 ---
 
-Traduit avec GitHub Copilot.
+Traduit avec GitHub Copilot et GPT-4o.

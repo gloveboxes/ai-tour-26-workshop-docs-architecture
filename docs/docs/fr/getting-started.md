@@ -12,4 +12,4 @@ Sélectionnez votre expérience d'atelier :
 
 ---
 
-Traduit avec GitHub Copilot.
+Traduit avec GitHub Copilot et GPT-4o.
