@@ -119,6 +119,25 @@ plugins:
             'Summary': '요약'
             'Resources': '리소스'
             'About': '소개'
+        - locale: tl
+          name: Filipino
+          site_name: AI Tour Workshop 26 sa Filipino
+          admonition_translations:
+            tip: Tip
+            warning: Babala
+          nav_translations:
+            'Workshop Introduction': 'Panimula sa Workshop'
+            'Content Creators Guide': 'Gabay para sa mga Tagalikha ng Nilalaman'
+            'Workshop Overview': 'Pangkalahatang-ideya ng Workshop'
+            'Solution Architecture': 'Arkitektura ng Solusyon'
+            'Security Considerations': 'Mga Pagsasaalang-alang sa Seguridad'
+            'Getting Started': 'Pagsisimula'
+            'Lab 1 Opening the Workshop': 'Lab 1 Pagbubukas ng Workshop'
+            'Lab 2 ....': 'Lab 2 ....'
+            'Lab 6 Finishing Up': 'Lab 6 Pagtatapos'
+            'Summary': 'Buod'
+            'Resources': 'Mga Mapagkukunan'
+            'About': 'Tungkol sa'
 
 theme:
   name: material
