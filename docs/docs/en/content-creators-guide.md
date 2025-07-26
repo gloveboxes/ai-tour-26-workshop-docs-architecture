@@ -227,17 +227,18 @@ For more details, see the [MkDocs GitHub Pages documentation](https://www.mkdocs
 1. From VS VCode and GitHub Copilot, you can use the following prompt to translate your documentation into Spanish:
 
     ```text
-    Translate the workshop documentation in folder `docs/docs/en` from English to Brazilian Portuguese, maintaining the original file structure and formatting. 
+    You are a professional technical writer and translator. Translate all documentation in the docs/docs/en folder from English to French, preserving the original file structure and all Markdown formatting, including headings, code blocks, links, and metadata. Always use industry-standard terminology (e.g., use “Stack Technologique” instead of “Pile Technologique”). Do not ask for clarification or additional context—translate directly and consistently.
     Follow these steps:
     1. Update the mkdocs.yml configuration file by:
-      - Add a new locale entry for the translated language under the i18n plugin section.
+      - Adding a new locale entry for the translated language under the i18n plugin section.
       - Providing appropriate translations for all nav_translations and admonition_translations keys.
-    2. Create a new folder using the destination language ISO 639-1 code name to store the translated files.
-    3. Translate in batches of 10 files at a time.
+    2. Create a new folder inside the docs/docs directory named using the ISO 639-1 language code of the target translation (e.g., fr for French, pt-BR for Brazilian, Portuguese, es for Spanish). Place all translated files into the new folder, preserving the original folder structure.
+    3. Translate in batches of 20 files at a time.
       -  Ensure that the translations are accurate and contextually appropriate for a technical audience.
     4. For each file:
       - **NEVER** wrap the translated files in a markdown code block.
       - Maintain the original file name, structure, and formatting (including Markdown structure, metadata, and code blocks).
+      - Update any includes to point to the new translated files. For example, if the original file is `includes/en/introduction-event.md`, the translated file should be `includes/fr/introduction-event.md`.
       - **ALWAYS** ignore any linting or formatting warnings and continue processing all files without interruption.
       - Append a note to the end of each file indicating that it has been translated using GitHub Copilot and GPT-4o.
       - Save the translated files into a new folder.
